@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"
+              ><span class="color-primary">R.</span>State</a
+            >
+
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Left links -->
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sales</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Building</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Agent</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                  <button class="btn btn-theme">Get Started</button>
+                </li>
+                <!-- Navbar dropdown -->
+              </ul>
+              <!-- Left links -->
+
+              <!-- Search form -->
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Banner section -->
+    <section id="hero-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 my-auto mr-auto banner-text">
+            <h1 class="h1 h1-responsive">
+              Find Your Next Perfect Place To Live.
+            </h1>
+            <p>
+              In expecting display, thought. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Ipsa quod, quaerat sapiente dolores
+              error atque voluptates harum accusantium corrupti quo!
+            </p>
+            <button class="btn btn-theme-2">Learn More</button>
+            <button class="btn btn-play ml-3">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+
+          <div class="col-lg-5 col-md-6 ml-auto my-md-auto my-5 banner-img">
+            <div class="image">
+              <img
+                src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Banner section -->
+
+    <!-- Serch section -->
+
+    <section id="search-section" class="">
+      <div class="container">
+        <div class="col-lg-11 mx-auto search-area shadow">
+          <div class="row">
+            <div class="col-md-3">
+              <select name="" id="">
+                <option value="">Location</option>
+                <option value="">Location</option>
+                <option value="">Location</option>
+              </select>
+              <input type="text" class="form-control" placeholder="Location" />
+            </div>
+            <div class="col-md-3">
+              <select name="" id="">
+                <option value="">Property Type</option>
+                <option value="">Property 1</option>
+                <option value="">Property 2</option>
+              </select>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Property Type"
+              />
+            </div>
+            <div class="col-md-3">
+              <select name="" id="">
+                <option value="">Max Price</option>
+                <option value="">Min Price</option>
+                <option value="">Average</option>
+              </select>
+              <input type="text" class="form-control" placeholder="$6,500" />
+            </div>
+            <div class="col-lg-2 col-md-3 ml-auto-btn my-auto">
+              <button class="btn btn-theme">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Serch section -->
+    <br /><br /><br />
+
+    <!-- About section -->
+      <section id="about-section" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 my-auto">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 pl-5-content pl-lg-5 px-5 mt-md-0 mt-5">
+              <h6 class="h6 color-primary m-0">About Us</h6>
+              <h1 class="h1 h1-responsive mb-4 h1-color">We Provide The Best Property For  You!</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Autem atque nam animi voluptatum dicta sapiente sit doloremque numquam blanditiis</p>
+              <p>voluptatem recusandae corporis aut perferendis eum quam? Ducimus aliquam quia est.</p>
+
+              <button class="btn btn-theme-2">Learn More</button>
+              <button class="btn btn-play ml-3">
+                <i class="fas fa-play"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- /About section -->
+
+
+    <!-- SErvices section -->
+    <section class="my-5" id="servives-section">
+      <div class="container">
+        <div class="col-md-12 mx-auto">
+          <div class="d-flex justify-content-between">
+            <div class="shadow service-show">
+              <i class="fas fa-user"></i>
+              <h4 class="h4">Make Your Dream True</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="shadow service-show">
+              <i class="fas fa-desktop"></i>
+              <h4 class="h4">Start Your Membership</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="shadow service-show">
+              <i class="fas fa-home"></i>
+              <h4 class="h4">Enjoy Your New Home</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SErvices section -->
+
+    <!-- Property Listing Section -->
+    <section id="property-section">
+      <div class="container">
+        <h6 class="h6 color-primary m-0">Recent</h6>
+        <h1 class="h1 h1-responsive mb-4 h1-color">Recently Added Properties</h1>
+        <div class="text-right">
+            <a href="#">Find More Projects <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+
+        <!-- Property List slider -->
+        <div id="property-slider">
+          <!-- Slider -->
+          <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="property-list shadow">
+                  <div class="image">
+                      <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                  </div>
+                  <div class="text-right">
+                    <h4 class="h5">$10,990</h4>
+                  </div>
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="item">
+                      <h4 class="m-0">Palace</h4>
+                      <p class="m-0">Krinaga,</p>
+                    </div>
+                    <div class="item d-flex align-self-center">
+                      <i class="fas fa-bed mr-2 align-self-center"></i>
+                      <span class="mr-3">5</span>
+                      <i class="fas fa-bath mr-2 align-self-center"></i>
+                      <span>3</span>
+                    </div>
+                  </div>
+                  
+
+
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="property-list shadow">
+                  <div class="image">
+                      <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                  </div>
+                  <div class="text-right">
+                    <h4 class="h5">$10,990</h4>
+                  </div>
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="item">
+                      <h4 class="m-0">Palace</h4>
+                      <p class="m-0">Krinaga,</p>
+                    </div>
+                    <div class="item d-flex align-self-center">
+                      <i class="fas fa-bed mr-2 align-self-center"></i>
+                      <span class="mr-3">5</span>
+                      <i class="fas fa-bath mr-2 align-self-center"></i>
+                      <span>3</span>
+                    </div>
+                  </div>
+                  
+
+
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                  <div class="property-list shadow">
+                    <div class="image">
+                        <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                    </div>
+                    <div class="text-right">
+                      <h4 class="h5">$10,990</h4>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                      <div class="item">
+                        <h4 class="m-0">Palace</h4>
+                        <p class="m-0">Krinaga,</p>
+                      </div>
+                      <div class="item d-flex align-self-center">
+                        <i class="fas fa-bed mr-2 align-self-center"></i>
+                        <span class="mr-3">5</span>
+                        <i class="fas fa-bath mr-2 align-self-center"></i>
+                        <span>3</span>
+                      </div>
+                    </div>
+                    
+  
+  
+                  </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="property-list shadow">
+                  <div class="image">
+                      <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                  </div>
+                  <div class="text-right">
+                    <h4 class="h5">$10,990</h4>
+                  </div>
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="item">
+                      <h4 class="m-0">Palace</h4>
+                      <p class="m-0">Krinaga,</p>
+                    </div>
+                    <div class="item d-flex align-self-center">
+                      <i class="fas fa-bed mr-2 align-self-center"></i>
+                      <span class="mr-3">5</span>
+                      <i class="fas fa-bath mr-2 align-self-center"></i>
+                      <span>3</span>
+                    </div>
+                  </div>
+                  
+
+
+                </div>
+              </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+          
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div> -->
+            <!-- <div class="swiper-button-next"></div> -->
+          
+            
+        </div>
+        </div>
+        <!-- /Property List slider -->
+      </div>
+
+      
+    </section>
+    <!-- /Property Listing Section -->
+
+    <!-- work section -->
+    <section id="work-section">
+      <div class="container">
+        <h6 class="h6 color-primary m-0">Work</h6>
+        <h1 class="h1 h1-responsive mb-4">How It Works</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi de<br>lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi d</p>
+
+        <div class="d-flex justify-content-between my-5">
+            <div class="service-show">
+              <i class="fas fa-search"></i>
+              <h4 class="h4 mb-4">Fine Home</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit m ipsum dolor sit amet, consectetur adipisicing eli.</p>
+            </div>
+            <div class="service-show">
+              <i class="fas fa-people-carry"></i>
+              <h4 class="h4 mb-4">Meets Roommates</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit m ipsum dolor sit amet, consectetur adipisicing eli.</p>
+            </div>
+            <div class="service-show">
+              <i class="fas fa-shield-alt"></i>
+              <h4 class="h4 mb-4">Make It Official</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit m ipsum dolor sit amet, consectetur adipisicing eli.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- /work section -->
+
+    <!-- feadture Property -->
+    <section id="feature-section">
+      <div class="container">
+          <h6 class="h6 color-primary m-0">Recent</h6>
+          <h1 class="h1 h1-responsive mb-4">How Featured Properties</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nam ullam harum qui vitae sunt.</p>
+          <br>
+          <div class="col-md-11 mx-auto text-left">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+                  <div class="property-list shadow">
+                      <div class="image">
+                          <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                      </div>
+                      <div class="text-right">
+                        <h4 class="h5">$10,990</h4>
+                      </div>
+                      <div class="d-flex justify-content-between mb-4">
+                        <div class="item">
+                          <h4 class="m-0">Palace</h4>
+                          <p class="m-0">Krinaga,</p>
+                        </div>
+                        <div class="item d-flex align-self-center">
+                          <i class="fas fa-bed mr-2 align-self-center"></i>
+                          <span class="mr-3">5</span>
+                          <i class="fas fa-bath mr-2 align-self-center"></i>
+                          <span>3</span>
+                        </div>
+                      </div>
+                      
+    
+    
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+                <div class="property-list shadow">
+                    <div class="image">
+                        <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                    </div>
+                    <div class="text-right">
+                      <h4 class="h5">$10,990</h4>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                      <div class="item">
+                        <h4 class="m-0">Palace</h4>
+                        <p class="m-0">Krinaga,</p>
+                      </div>
+                      <div class="item d-flex align-self-center">
+                        <i class="fas fa-bed mr-2 align-self-center"></i>
+                        <span class="mr-3">5</span>
+                        <i class="fas fa-bath mr-2 align-self-center"></i>
+                        <span>3</span>
+                      </div>
+                    </div>
+                    
+
+
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+                <div class="property-list shadow">
+                    <div class="image">
+                        <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                    </div>
+                    <div class="text-right">
+                      <h4 class="h5">$10,990</h4>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                      <div class="item">
+                        <h4 class="m-0">Palace</h4>
+                        <p class="m-0">Krinaga,</p>
+                      </div>
+                      <div class="item d-flex align-self-center">
+                        <i class="fas fa-bed mr-2 align-self-center"></i>
+                        <span class="mr-3">5</span>
+                        <i class="fas fa-bath mr-2 align-self-center"></i>
+                        <span>3</span>
+                      </div>
+                    </div>
+                    
+
+
+                  </div>
+              </div>
+            <!-- </div>
+            <br>
+            <br>
+            <div class="row"> -->
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+                <div class="property-list shadow">
+                    <div class="image">
+                        <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                    </div>
+                    <div class="text-right">
+                      <h4 class="h5">$10,990</h4>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                      <div class="item">
+                        <h4 class="m-0">Palace</h4>
+                        <p class="m-0">Krinaga,</p>
+                      </div>
+                      <div class="item d-flex align-self-center">
+                        <i class="fas fa-bed mr-2 align-self-center"></i>
+                        <span class="mr-3">5</span>
+                        <i class="fas fa-bath mr-2 align-self-center"></i>
+                        <span>3</span>
+                      </div>
+                    </div>
+                    
+
+
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+              <div class="property-list shadow">
+                  <div class="image">
+                      <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                  </div>
+                  <div class="text-right">
+                    <h4 class="h5">$10,990</h4>
+                  </div>
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="item">
+                      <h4 class="m-0">Palace</h4>
+                      <p class="m-0">Krinaga,</p>
+                    </div>
+                    <div class="item d-flex align-self-center">
+                      <i class="fas fa-bed mr-2 align-self-center"></i>
+                      <span class="mr-3">5</span>
+                      <i class="fas fa-bath mr-2 align-self-center"></i>
+                      <span>3</span>
+                    </div>
+                  </div>
+                  
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mx-auto my-3">
+            <div class="property-list shadow">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                </div>
+                <div class="text-right">
+                  <h4 class="h5">$10,990</h4>
+                </div>
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">Palace</h4>
+                    <p class="m-0">Krinaga,</p>
+                  </div>
+                  <div class="item d-flex align-self-center">
+                    <i class="fas fa-bed mr-2 align-self-center"></i>
+                    <span class="mr-3">5</span>
+                    <i class="fas fa-bath mr-2 align-self-center"></i>
+                    <span>3</span>
+                  </div>
+                </div>
+                
+
+
+              </div>
+              </div>
+            </div>
+            <div class="my-5 text-center">
+              <button class="btn btn-theme">Load More</button>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- /feadture Property -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonial-section">
+      <div class="container">
+          <h6 class="h6 color-primary m-0">Testimonials</h6>
+          <h1 class="h1 h1-responsive mb-4">What They Are Saying</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi de<br>lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi d</p>
+          <div id="testimonial-slider">
+              <div class="swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-list">
+                        <div class="row">
+                          <div class="col-ld-4 col-md-4 col-4 text-center mx-auto">
+                              <div class="image">
+                                  <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                              </div>
+                          </div>
+                          <div class="offset-lg-1 col-lg-6 col-md-8 align-text-left">
+                            <i class="fas fa-quote-left fa-8x"></i>
+                            <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, eum. Harum maxime omnis quos reprehenderit optio sit aliquam excepturi exercitationem.</p>
+                            <br>
+                            <h4 class="h4">Youtuber</h4>
+                            <p>Code Inc</p>
+                          </div>
+                        </div>
+                       
+                        
+                        
+      
+      
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-list">
+                          <div class="row">
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                                </div>
+                            </div>
+                            <div class="offset-md-1 col-md-6 align-text-left">
+                              <i class="fas fa-quote-left fa-8x"></i>
+                              <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, eum. Harum maxime omnis quos reprehenderit optio sit aliquam excepturi exercitationem.</p>
+                              <br>
+                              <h4 class="h4">Youtuber</h4>
+                              <p>Code Inc</p>
+                            </div>
+                          </div>
+                         
+                          
+                          
+        
+        
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-list">
+                            <div class="row">
+                              <div class="col-md-4">
+                                  <div class="image">
+                                      <img src="https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                                  </div>
+                              </div>
+                              <div class="offset-md-1 col-md-6 align-text-left">
+                                <i class="fas fa-quote-left fa-8x"></i>
+                                <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, eum. Harum maxime omnis quos reprehenderit optio sit aliquam excepturi exercitationem.</p>
+                                <br>
+                                <h4 class="h4">Youtuber</h4>
+                                <p>Code Inc</p>
+                              </div>
+                            </div>
+                           
+                            
+                            
+          
+          
+                          </div>
+                        </div>
+      
+                   
+                    
+                  </div>
+                  <!-- If we need pagination -->
+                  <!-- <div class="swiper-pagination"></div> -->
+                
+                  <!-- If we need navigation buttons -->
+                  <!-- <div class="swiper-button-prev"></div> -->
+                  <!-- <div class="swiper-button-next"></div> -->
+                
+                  
+              </div>
+          </div>
+
+      </div>
+    </section>
+    <!-- /Testimonial Section -->
+    <!-- mail -->
+    <section id="mail-section">
+      <div class="container">
+        <h1 class="h1 h1-responsive mb-">Have a Question in mind?<br>Let us help you</h1>
+
+        <div class="col-md-8 mx-auto form shadow mt-3">
+          <div class="row">
+            <div class="col-md-9 my-auto">
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="col-md-3 text-right">
+              <button class="btn btn-theme">Send</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 my-md-auto my-4">
+            <h4 class="h3">R.State</h4>
+          </div>
+          <div class="col-md-2 col-6 my-md-auto my-4">
+            <h6 class="m-0 h6">Quick Link</h6>
+            <hr>
+            <ul>
+              <li><a href="#">Architecture</a></li>
+              <li><a href="#">Agency</a></li>
+              <li><a href="#">Asset Valuation</a></li>
+              <li><a href="#">Building</a></li>
+              <li><a href="#">Business Rate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-6 my-md-auto my-4">
+              <h6 class="m-0 h6">Location</h6>
+              <hr>
+              <ul>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Agency</a></li>
+                <li><a href="#">Asset Valuation</a></li>
+                <li><a href="#">Building</a></li>
+                <li><a href="#">Business Rate</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2 col-6 my-md-auto my-4">
+              <h6 class="m-0 h6">Services</h6>
+              <hr>
+              <ul>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Agency</a></li>
+                <li><a href="#">Asset Valuation</a></li>
+                <li><a href="#">Building</a></li>
+                <li><a href="#">Business Rate</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <h6 class="m-0 h6">Contact</h6>
+              <hr>
+              <ul>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Agency</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+    ></script>
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
